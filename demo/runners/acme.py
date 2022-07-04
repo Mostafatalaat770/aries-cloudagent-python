@@ -23,7 +23,7 @@ LOGGER = logging.getLogger(__name__)
 class AcmeAgent(DemoAgent):
     def __init__(self, http_port: int, admin_port: int, **kwargs):
         super().__init__(
-            "Acme Agent",
+            "Company Agent",
             http_port,
             admin_port,
             prefix="Acme",
